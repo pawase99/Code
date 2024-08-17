@@ -1,4 +1,5 @@
-#Python questions
+# Python questions
+
 **1. What is lambda in Python? Why is it used?**
 
 Lambda is an anonymous function in Python, that can accept any number of arguments, but can only have a single expression. It is generally used in situations requiring an anonymous function for a short time period. 
