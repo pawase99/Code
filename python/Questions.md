@@ -75,4 +75,16 @@ Garbage collection in automatic memory management technique, is used by programm
 
 Garbage collector in python locates and releases memory occupied by objects that can no longer be accessed or referenced by the programs code.
 
+gc.enable()
+gc.disable()
+gc.collect()
+gc.get_threshold()
+
+**7. What is Global Interpreter Lock (GIL)?**
+
+Python is good for I/O Bound tasks with multithreading due to GIL which limits the execution of only one thread at a time for CPU bound tasks.
+For CPU bound tasks multiprocessing is more efficient.
+
+Multithreading is a technique where multiple threads are spawned by a process to di different tasks at about same time, just one after another.
+This gives us an illusion that threads are running in parallel, but they are actually run in concurrent manner(one after other).
 
