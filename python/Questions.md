@@ -25,12 +25,12 @@ Lambda functions can be used in either of the two ways:
 
    Generators are most important python function that return an iterable collection of items, one at a time, in an organized manner.
 
-**What is PIP?**
+**4. What is PIP?**
 
 PIP is acronym for Python Installer Package which provides a seamless interfacr to install various Python modules. It is a command line tool that can search for packages over the internet and install them without any user interaction.
 
 
-**2. What are decorators in Python?**
+**5. What are decorators in Python?**
 
 Decorators in Python are essentially functions that add functionality to an existing function in Python without changing the structure of the function itself. They are represented the @decorator_name in Python and are called in a bottom-up fashion. For example:
 	
@@ -68,4 +68,11 @@ The beauty of the decorators lies in the fact that besides adding functionality 
 	def say_hello(name1, name2):
 	   return 'Hello ' + name1 + '! Hello ' + name2 + '!'
 	say_hello('sara', 'ansh')   # output => 'Hello Sara! Hello Ansh!'
+
+**6. What is Garbage collection in Python?**
+
+Garbage collection in automatic memory management technique, is used by programming languages to deallocate memory that is no longer required by the program.
+
+Garbage collector in python locates and releases memory occupied by objects that can no longer be accessed or referenced by the programs code.
+
 
