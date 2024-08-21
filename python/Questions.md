@@ -69,6 +69,8 @@ The beauty of the decorators lies in the fact that besides adding functionality 
 	   return 'Hello ' + name1 + '! Hello ' + name2 + '!'
 	say_hello('sara', 'ansh')   # output => 'Hello Sara! Hello Ansh!'
 
+# Garbage collection Interview Questions
+
 **6. What is Garbage collection in Python?**
 
 Garbage collection in automatic memory management technique, is used by programming languages to deallocate memory that is no longer required by the program.
@@ -82,6 +84,8 @@ gc.disable()
 gc.collect()
 
 gc.get_threshold()
+
+# Thread Interview Questions
 
 **7. What is Global Interpreter Lock (GIL)?**
 
