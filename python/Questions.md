@@ -76,8 +76,11 @@ Garbage collection in automatic memory management technique, is used by programm
 Garbage collector in python locates and releases memory occupied by objects that can no longer be accessed or referenced by the programs code.
 
 gc.enable()
+
 gc.disable()
+
 gc.collect()
+
 gc.get_threshold()
 
 **7. What is Global Interpreter Lock (GIL)?**
