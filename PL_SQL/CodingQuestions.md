@@ -24,8 +24,63 @@
                                                                           from SQL statements.
                                                                           Autonomous transaction function can be called from SQL statement.
     5. "RETURN" keyword to return out of procedure.                    5. "RETURN" keyword to return the value.
+
+
     
 
+**3. Explain PL/SQL execution Architecture**
 
+  Client server architecture
 
-                                                                            
+  The transfer
+  
+  sends them to the sql statement processor
+
+**4. What virtual tables are accessible during database trigger is running?**
+
+  The virtual columns that are accessible during the database triggers execution are THEN and NOW tables. THEN.column and NOW.column are the names of respective tables columns.
+
+  The only allowed column for insert related triggers is NOW.column
+
+  The only allowed column for delete related triggers is THEN.column.
+
+  Upadte can be performed on both THEN and NOW tables.
+
+**5. What distinguishes ROLLBACK and ROLLBACK TO statement in PL-SQL**
+
+  ROLLBACK command is used to undo any modification made since the transactions start
+
+  ROLLBACK TO is used to ROLLBACK upto SAVEPOINT.
+
+**6. What component make up to a PLSQL package?**
+
+**7. Benefits of PLSQL package?**
+
+   -Enforced information hiding
+   -top down create
+   -object perstence
+   -object oriented design
+   -transaction integrity guaranteed
+   -performance enhancement
+
+**8. What is exception Handling?**
+
+  Runtime errors are handled by a process called exception handling.
+
+  User defined exception
+  System defined exception
+
+**9. How can your plsql code be debugged?**
+
+  to debug our code, we can use the DBMS_OUTPUT and DBMS_DEBUG statements.
+  DBMS_DEBUG is used to print the output to a logfile.
+
+**10. What distinguishes mutating trigger with constraining tables?**
+
+  Currently a table that is being changed through the use of DML Statement is referred as mutating.
+
+  constraining table is one that is read for the purpose of restricting referential integrity.
+
+****
+
+  
