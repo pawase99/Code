@@ -28,7 +28,17 @@
 **Can we use DML and DDL inside function?**
 
 https://www.youtube.com/watch?v=yyRM-p2xfZc&list=PLb1qVSx1k1Vr0v4wVyvT3GEuA0J0M4xBm&index=13
-    
+
+**Difference between RANK and DENSE RANK?**
+
+Rank function can provide the largest rownumber, it skipps the next value if 2 values are same.
+
+Dense rank wont provide largest rownumber, it does not skip the count.
+
+    select sal,
+          rank() over(order by sal)
+          dense_rank over(order by sal)
+    from emp;
 
 **3. Explain PL/SQL execution Architecture**
 
