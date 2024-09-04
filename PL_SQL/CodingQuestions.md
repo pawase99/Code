@@ -25,7 +25,9 @@
                                                                           Autonomous transaction function can be called from SQL statement.
     5. "RETURN" keyword to return out of procedure.                    5. "RETURN" keyword to return the value.
 
+**Can we use DML and DDL inside function?**
 
+https://www.youtube.com/watch?v=yyRM-p2xfZc&list=PLb1qVSx1k1Vr0v4wVyvT3GEuA0J0M4xBm&index=13
     
 
 **3. Explain PL/SQL execution Architecture**
