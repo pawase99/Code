@@ -93,6 +93,6 @@ Dense rank wont provide largest rownumber, it does not skip the count.
 
   constraining table is one that is read for the purpose of restricting referential integrity.
 
-****
+**a**
 
   
